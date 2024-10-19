@@ -4,8 +4,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = htmlspecialchars($_POST['boakyed41@gmail.com']);
     $service = htmlspecialchars($_POST['Nail polishing, Nail tip, Nil art,']);
     $date = htmlspecialchars($_POST['June 21, 2024']);
-    $time = htmlspecialchars($_POST['10am']);
-    
-    // Save to database or send an email
-    echo "Thank you, Miss Nina! Your appointment for Nail serivce on June 21 at 10am has been booked.";
+    $time = htmlspecialchars($_POST['10am to 5pm Monday through Friday']);
+echo "Thank you, Miss Nina! Your appointment for Nail serivce on June 21 at 10am has been booked.";
 }
