@@ -1,0 +1,20 @@
+Features
+Home Page: Provides an introduction and navigation.
+Services Page: Lists and describes services.
+Booking Page: Includes a functional form for appointments.
+Contact Page: Offers contact details and an inquiry form.
+About Us Page: Shares the salon's background.
+Code Adaptations
+Integrated form handling based on PHP examples from Chapters 1-7.
+Enhanced styling from previous CSS lessons to improve the user interface.
+Used HTML5 semantic elements for better structure and SEO.
+Challenges and Solutions
+Form Validation: Ensuring that all required fields were filled out correctly.
+
+Solution: Added client-side validation using JavaScript before form submission.
+Responsive Design: Making sure the site looked good on various devices.
+
+Solution: Utilized CSS media queries to adjust layout based on screen size.
+Data Handling: Managing form data securely.
+
+Solution: Implemented PHP’s htmlspecialchars() function to prevent XSS attacks.
